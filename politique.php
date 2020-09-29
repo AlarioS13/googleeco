@@ -23,12 +23,12 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 			   <div class="navbar-nav">
-				 <a class="nav-link" href="EcoConception.html">EcoConception</a>
-				 <a class="nav-link" href="BonnesPratiques.html">BonnesPratiques</a>
-				 <a class="nav-link" href="Politique.html">Politique</a>
+				 <a class="nav-link" href="EcoConception.php">EcoConception</a>
+				 <a class="nav-link" href="BonnesPratiques.php">BonnesPratiques</a>
+				 <a class="nav-link" href="Politique.php">Politique</a>
 			   </div>
 			 </div>
-			 <button class="btn btn-outline-primary"><a href="contact.html">Contact</a></button>
+			 <button class="btn btn-outline-primary"><a href="contact.php">Contact</a></button>
 		</nav>
 
 

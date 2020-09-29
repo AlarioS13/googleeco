@@ -25,12 +25,12 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
            <div class="navbar-nav">
-             <a class="nav-link" href="EcoConception.html">EcoConception</a>
-             <a class="nav-link" href="BonnesPratiques.html">BonnesPratiques</a>
-             <a class="nav-link" href="Politique.html">Politique</a>
+             <a class="nav-link" href="EcoConception.php">EcoConception</a>
+             <a class="nav-link" href="BonnesPratiques.php">BonnesPratiques</a>
+             <a class="nav-link" href="Politique.php">Politique</a>
            </div>
          </div>
-         <button class="btn btn-outline-primary"><a href="contact.html">Contact</a></button>
+         <button class="btn btn-outline-primary"><a href="contact.php">Contact</a></button>
     </nav>
 
 
@@ -124,6 +124,14 @@
             Vous les retrouverez dans le livre "Eco-conception web/ Les 115 bonnes pratiques" écrit par Frédéric Bordage et paru aux éditions EYROLLES.
             De plus des exemples de mises en applications sont aussi disponibles.</p>
     </div>
+
+    <div style="margin-left: 3%; margin-bottom: 50px;">Nous venons de voir les différentes pistes pour améliorer votre code.
+         Mais il existe d'autres raisons pour vous inciter à passer à l'éco-conception.
+          Ces raisons sont présentées dans la politique google.</div>
+
+          <div style="text-align: center; margin-bottom: 50px;">        <a href="politique.php" class="w3-btn w3-blue">En savoir plus</a>
+          </div>
+          
  
 </body>
 </html>

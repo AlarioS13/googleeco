@@ -25,12 +25,12 @@
   		</button>
   		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
   		   <div class="navbar-nav">
-  		     <a class="nav-link" href="EcoConception.html">EcoConception</a>
-  		     <a class="nav-link" href="BonnesPratiques.html">BonnesPratiques</a>
-  		     <a class="nav-link" href="Politique.html">Politique</a>
+  		     <a class="nav-link" href="EcoConception.php">EcoConception</a>
+  		     <a class="nav-link" href="BonnesPratiques.php">BonnesPratiques</a>
+  		     <a class="nav-link" href="Politique.php">Politique</a>
   		   </div>
  		  </div>
- 		  <button class="btn btn-outline-primary"><a href="contact.html">Contact</a></button>
+ 		  <button class="btn btn-outline-primary"><a href="contact.php">Contact</a></button>
 	  </nav>
 
       <!--part1-->
@@ -40,7 +40,7 @@
         <img src="image/back.jpg" alt="BackgroundHome" id="homeB" style="height:700px;">
         <div id="pitch" class="headline">Nous aimons toutes les couleurs. Aujourd’hui, nous préferons le vert !</div>
         <img src="image/dotherightthing.png" alt=slogan id="slogan">
-        <a href="contact.html" class="w3-btn w3-blue" id="ctn">Contact</a>
+        <a href="contact.php" class="w3-btn w3-blue" id="ctn">Contact</a>
     </div>
     <hr class="ligne">
 

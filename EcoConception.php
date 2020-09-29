@@ -25,12 +25,12 @@ aria-expanded="false" aria-label="Toggle navigation">
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
        <div class="navbar-nav">
-         <a class="nav-link" href="EcoConception.html">EcoConception</a>
-         <a class="nav-link" href="BonnesPratiques.html">BonnesPratiques</a>
-         <a class="nav-link" href="Politique.html">Politique</a>
+         <a class="nav-link" href="EcoConception.php">EcoConception</a>
+         <a class="nav-link" href="BonnesPratiques.php">BonnesPratiques</a>
+         <a class="nav-link" href="Politique.php">Politique</a>
        </div>
      </div>
-     <button class="btn btn-outline-primary"><a href="contact.html">Contact</a></button>
+     <button class="btn btn-outline-primary"><a href="contact.php">Contact</a></button>
 </nav>
 
 
@@ -126,7 +126,7 @@ aria-expanded="false" aria-label="Toggle navigation">
     Dans le numérique, comme dans d’autres secteurs, la tendance est au vert. De plus en plus d’entreprises se mettent à l’éco-conception web et cherchent à trouver le bon compromis entre performance et impact environnemental. Dans cet article, nous passons au crible l’éco-conception web et les bonnes pratiques.
     Quelles sont les bonnes pratiques, simples à mettre en place, à retenir pour rendre votre site Internet moins gourmand en ressources énergétiques</div>
 
-<div style="text-align: center; margin-bottom: 50px;">        <a href="BonnesPratiques.html" class="w3-btn w3-blue">En savoir plus</a>
+<div style="text-align: center; margin-bottom: 50px;">        <a href="BonnesPratiques.php" class="w3-btn w3-blue">En savoir plus</a>
 </div>
 
 <footer class="rowcss bg-light">

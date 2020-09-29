@@ -6,7 +6,7 @@
 	<meta charset="utf-8">
 	<link rel="icon" type="image" href="image/googlelogo.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-	<link rel="stylesheet" type="text/css" href="bootstrap-4.5.2-dist/css/bootstrap.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="stylecontact.css">
 	<link rel="stylesheet" media="all and (max-width: 800px)" href="mini.css">
 </head>
@@ -23,12 +23,12 @@
 		</button>
 		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 		   <div class="navbar-nav">
-			 <a class="nav-link" href="EcoConception.html">EcoConception</a>
-			 <a class="nav-link" href="BonnesPratiques.html">BonnesPratiques</a>
-			 <a class="nav-link" href="Politique.html">Politique</a>
+			 <a class="nav-link" href="EcoConception.php">EcoConception</a>
+			 <a class="nav-link" href="BonnesPratiques.php">BonnesPratiques</a>
+			 <a class="nav-link" href="Politique.php">Politique</a>
 		   </div>
 		 </div>
-		 <button class="btn btn-outline-primary"><a href="contact.html">Contact</a></button>
+		 <button class="btn btn-outline-primary"><a href="contact.php">Contact</a></button>
 	</nav>
 
 	
