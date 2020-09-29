@@ -1,18 +1,15 @@
   <!DOCTYPE html>
+<html>
+
 <head>
-<html lang="en">
-<title>Google ecoresponsable</title>
+<title>Google éco-responsable</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body {font-family: "Lato", sans-serif}
-/* .mySlides {display: none} */
-</style>
+
+
 </head>
 <body>
 
@@ -20,27 +17,28 @@ body {font-family: "Lato", sans-serif}
     <!--NAV-->
 
     <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-  		<a class="navbar-brand" href="#"><img src="image/googlelogo.png" class="logo"></a>
+  		<a class="navbar-brand" href="index.html"><img src="image/googlelogo.png" height="30px"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" 
-      data-target="#navbarNavAltMarkup" aria-controls="		navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-  		 	<span class="navbar-toggler-icon"></span>
+      data-target="#navbarNavAltMarkup" aria-controls="		navbarNavAltMarkup" 
+      aria-expanded="false" aria-label="Toggle navigation">
+  		  <span class="navbar-toggler-icon"></span>
   		</button>
   		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
   		   <div class="navbar-nav">
-  		     <a class="nav-link" href="#">EcoConception</a>
-  		     <a class="nav-link" href="#">BonnesPratiques</a>
-  		     <a class="nav-link" href="#">Politique</a>
+  		     <a class="nav-link" href="EcoConception.html">EcoConception</a>
+  		     <a class="nav-link" href="BonnesPratiques.html">BonnesPratiques</a>
+  		     <a class="nav-link" href="Politique.html">Politique</a>
   		   </div>
- 		</div>
- 		<button class="btn btn-outline-primary">Contact</button>
-	</nav>
+ 		  </div>
+ 		  <button class="btn btn-outline-primary">Contact</button>
+	  </nav>
 
       <!--part1-->
 
 
-    <div class="w3-display-container">
-        <img src="image/back.jpg" alt="BackgroundHome" id="homeB">
-        <div id="pitch">Nous aimons toutes les couleurs. Aujourd’hui, nous préferons le vert !</div>
+    <div class="w3-display-container" style="margin-bottom: 100px;">
+        <img src="image/back.jpg" alt="BackgroundHome" id="homeB" style="height:700px;">
+        <div id="pitch" class="headline">Nous aimons toutes les couleurs. Aujourd’hui, nous préferons le vert !</div>
         <img src="image/dotherightthing.png" alt=slogan id="slogan">
         <a href="#contact" class="w3-btn w3-blue" id="ctn">Contact</a>
     </div>
@@ -48,41 +46,47 @@ body {font-family: "Lato", sans-serif}
 
     <!--part2-->
 
-    <div class="container-fluid text-center" style="margin-top:150px; margin-bottom: 150px;">    
+    <div class="container-fluid text-center" style="margin-top:110px; margin-bottom: 110px;">    
         
-        <div class="row">
-          <div class="col-sm-1" style="width: 6.25%; flex: 0 0 6.25%;max-width: 6.25%;"></div>
+        <div class="row"> <!--flex direction row, pour que tout les blocs s'affichent sur la même ligne-->
 
-          <div class="col-sm-3">
-            <img src="image/feature1-2.png" style="width:200px" alt="Image">
+          <div class="col-sm-1 colvide"></div> <!--Colonne vide de 0.75/12 de largeur-->
+
+          <div class="col-sm-3"> <!--colonne de 3/12-->
+            <div id="circleicone1"></a></div> <!--bloc gris et rond avec icone en background-->
             <h2>Eco-conception</h2> <br><br><br>
             <p>Avez-vous déjà réfléchi à l’empreinte écologique 
-              de votre site web ? Dans le numérique, comme dans d’autres secteurs, la tendance est au vert !</p>
-            <img src="image/sick.png"  style="width:50%" alt="Image">
-          
+              de votre site web ? Dans le numérique, comme dans d’autres
+               secteurs, la tendance est au vert !</p><br>
+            <img src="image/sick.png"  style="width:70%" alt="Image">
           </div>
+
           <div class="col-sm-1 colvide"></div>
 
           <div class="col-sm-3"> 
-            <img src="image/bonnespratiques2.png" alt="Image" style="width:180px">
-            <h2>Bonnes pratiques</h2> <br><br><br>
+            <div id="circleicone2"></div>
+            <h2><a href="BonnesPratiques.html">Bonnes pratiques</a></h2> <br><br><br>
             <p>Vous voulez faire de l’eco-conception 
-              mais vous ne savez pas comment ? Vous trouverez ici les axes d’amelioration possibles. </p>
-            <img src="image/feature2.png"  style="width:60%" alt="Image">    
+              mais vous ne savez pas comment ? Vous trouverez ici
+              les axes d’amelioration possibles. </p>
+            <img src="image/feature2.png"  style="width:80%" alt="Image">    
           </div>
+
           <div class="col-sm-1 colvide"></div>
 
           <div class="col-sm-3">
-            <img src="image/feature3-2.png" alt="Image" style="width:140px">
+            <div id="circleicone3"></div>
             <h2>Notre politique</h2> <br><br><br>
             <p>Google encourage l’éco-conception 
-              avec une politique et des moyens pour concevoir un site qui allie performance et impact environnemental.</p>
-            <img src="image/referencement.png" style="width:80%" alt="Image">
-            </div>
+              avec une politique et des moyens pour concevoir un site qui allie
+              performance et impact environnemental.</p><br>
+            <img src="image/referencement.png" style="width:110%" alt="Image">
+          </div>
+
           <div class="col-sm-1 colvide"></div>
 
-          </div>
         </div>
+      </div>
         <hr class="ligne">
         <h2 class=text-center> Ils se sont mis au vert !</h2>
       </div>
@@ -91,7 +95,7 @@ body {font-family: "Lato", sans-serif}
 
       <!--PART3-->
 
-      <div class="container-fluid text-center" style="margin-top:150px; margin-bottom: 150px;"> 
+      <div class="container-fluid text-center" style="margin-top:120px; margin-bottom: 120px;"> 
         
         
         <div class="row">
@@ -182,14 +186,6 @@ body {font-family: "Lato", sans-serif}
       </div>
    
   
-     
-      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-      <script src="scriptjq.js"></script>  
-
-      <!--FOOTER-->
-
       <footer class="rowcss bg-light">
         <div class="text-dark">
           <?php 
@@ -210,6 +206,17 @@ body {font-family: "Lato", sans-serif}
             </div>
           </div>
       </footer>
+      
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+      <script src="scriptjq.js"></script>  
+
+      <!--FOOTER-->
+
+     
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="main.js"></script>
 
 </body>
 </html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>L'éco-conception</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+ <!--NAV-->
+
+ 
+ <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html"><img src="image/googlelogo.png" height="30px"></a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" 
+data-target="#navbarNavAltMarkup" aria-controls="		navbarNavAltMarkup" 
+aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+       <div class="navbar-nav">
+         <a class="nav-link" href="EcoConception.html">EcoConception</a>
+         <a class="nav-link" href="BonnesPratiques.html">BonnesPratiques</a>
+         <a class="nav-link" href="Politique.html">Politique</a>
+       </div>
+     </div>
+     <button class="btn btn-outline-primary">Contact</button>
+</nav>
+
+
+<!--part1-->
+<div class="container-fluid">
+    <div class="row">
+
+        
+        <div class="col-sm-2" style="margin-top: 20px; margin-left: 20px;">
+            <img src="image/eco-vert.jpeg" alt=image width="200px" height="200px" class="w3-circle">
+        </div>
+        <div class="col-sm-5" style="margin-top: auto; margin-bottom: auto;">
+            <h1>L’éco-conception</h1>
+        </div>
+
+    </div>
+</div>
+
+<!--part2-->
+<div style="margin-left: 3%; margin-top: 30px; margin-bottom: 100px;">
+    <h2>Le constat</h2><br><br>
+    <p>Le web pollue de manière croissante et inquiétante, il faut donc concevoir des sites web
+         plus légers et sollicitant moins d'allers-retours serveur(s). L’impact environnemental
+      du numérique n’est pas toujours connu, pourtant il est très important.
+       Pour s’en rendre compte, voici quelques chiffres :</p>
+</div>
+
+<div class="container-fluid" style="margin-bottom: 150px;">
+    <div class="row">
+        <div class="col-sm-1 colvide"></div>
+        <div class="col-sm-3 circlenumber">
+            <h3 class="groschiffres">15 000 kilomètres </h3><br><br><br><br>
+            <p>sont en moyenne parcourus pour une donnée numérique</p>
+        </div>
+        <div class="col-sm-1 colvide"></div>
+        <div class="col-sm-3 circlenumber">
+            <h3 class="groschiffres">7 grammes de CO2 </h3><br><br><br><br>
+            <p>sont en moyenne parcourus pour une donnée numérique
+                 sont émis lors d’une recherche Google</p>
+        </div>
+        <div class="col-sm-1 colvide"></div>
+        <div class="col-sm-3 circlenumber">
+            <h3 class="groschiffres">10 % de l’électricité</h3><br><br><br><br>
+                <p>sont consommées dans notre pays par les data center français.</p>
+        </div>
+        <div class="col-sm-1 colvide"></div>
+    </div>
+
+
+</div>
+<hr class="ligne">
+
+<!--PART2-->
+
+<div style="margin: 3%;">
+    <h2 style="text-align: center;">Qu’est-ce que l’éco-conception</h2><br><br>
+    <p>L'Eco-conception c'est l'intégration de la réduction des impacts environnementaux
+         dès la phase de conception d'un service numérique avec une vision globale 
+         sur l'ensemble du cycle de vie. Le même service rendu génère moins d'impacts
+          s'il est éco-conçu. En intégrant les dimensions sociale et économique, 
+          elle mène à la conception numérique responsable ".
+        Il faut donc réduire l'impact environnemental du web tout en gagnant en performance.<br><br><br><br>
+        L’éco-conception se doit intervenir dans chaque étape du cycle d’un produit,
+         et non seulement dans quelques étapes.
+    </p>
+    <img src="image/cycle-vie.jpg" width="1200px" style="margin-top: 50px;"><br><br><br>
+</div>
+<hr class="ligne">
+
+<!--PART3-->
+
+<div class="container-fluid" style="margin-bottom: 50px; margin-top: 50px;">
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-4" style="margin-top: auto;margin-bottom: auto;">
+
+
+            Retrouver dans cette vidéo l’explication de l'éco-conception 
+            selon une agence qui la pratique lors de toute ses conception
+        </div>
+        <div class="col-sm-6">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/790WTNgg-78" 
+            frameborder="0" allow="accelerometer; autoplay;
+            clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+        </div>
+        
+    </div>
+</div>
+
+<footer class="rowcss bg-light">
+    <div class="text-dark">
+      <?php 
+      $dateTimeZone = new DateTimeZone('Europe/Paris');
+      $dateTime = new DateTime('now', $dateTimeZone);
+      echo "© " . $dateTime -> format('Y'). ' Google'?>
+      <a href="#" style="color: #5f6368">Credits </a><a href="#" style="color: #5f6368"> Privacy policy</a>
+    </div>
+      <div class="rowdiv text-light">
+        <div class="svg spaced">
+          <a href="#"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin" class="svg-inline--fa fa-linkedin fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg></a>
+        </div>
+        <div class="svg spaced">
+          <a href="#"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-square" class="svg-inline--fa fa-facebook-square fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"></path></svg></a>
+        </div>
+        <div class="svg spaced">
+          <a href="#"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter-square" class="svg-inline--fa fa-twitter-square fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-48.9 158.8c.2 2.8.2 5.7.2 8.5 0 86.7-66 186.6-186.6 186.6-37.2 0-71.7-10.8-100.7-29.4 5.3.6 10.4.8 15.8.8 30.7 0 58.9-10.4 81.4-28-28.8-.6-53-19.5-61.3-45.5 10.1 1.5 19.2 1.5 29.6-1.2-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3a65.447 65.447 0 0 1-29.2-54.6c0-12.2 3.2-23.4 8.9-33.1 32.3 39.8 80.8 65.8 135.2 68.6-9.3-44.5 24-80.6 64-80.6 18.9 0 35.9 7.9 47.9 20.7 14.8-2.8 29-8.3 41.6-15.8-4.9 15.2-15.2 28-28.8 36.1 13.2-1.4 26-5.1 37.8-10.2-8.9 13.1-20.1 24.7-32.9 34z"></path></svg></a>
+        </div>
+      </div>
+  </footer>
+
+</body>
+
+
+
+</html>
