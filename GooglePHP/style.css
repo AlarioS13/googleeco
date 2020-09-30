@@ -1,0 +1,509 @@
+/*fond d'accueil */
+#homeB {
+    width: 100%!important;
+    /* height: 700px; */
+    opacity: 55%;
+}
+/*police et style de a */
+
+a
+{
+	text-decoration: none;
+}
+
+a:hover {
+  color: #5f6368;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2, h3 {
+  font-size: 32px;
+}
+
+html, body
+{
+	font-family: 'Roboto', sans-serif !important; 
+  color: #5f6368 !important;
+  font-size: 16px;
+}
+
+.ligne {
+  width: 60%; 
+  margin-right: auto; 
+  margin-left: auto;
+}
+
+.colvide { /*collone de largeur 0.75 pour espacer et pas depasser 12 0.75*4=3, et 3 bloc de 3 soit 12*/
+  width: 6.25%; 
+  flex: 0 0 6.25%;
+  max-width: 6.25%;
+}
+
+/*Page d'accueil*/
+/*je place le slogan, le pitch et le bouton contact sur le fond d'accueil */
+
+#pitch {
+  position:absolute;
+  left:50%;
+  bottom:14%;
+  transform:translate(-50%,0%);
+  -ms-transform:translate(-50%,0%);
+  font-weight: bold;
+  color: #5f6368;
+  font-size: 1.3em;
+}
+
+#slogan {
+  position:absolute;
+  left:50%;
+  bottom:27%;
+  transform:translate(-50%,0%);
+  -ms-transform:translate(-50%,0%);
+  font-weight: bold;
+  color: #5f6368;
+}
+
+#ctn {
+  position:absolute;
+  left:50%;
+  bottom:6%;
+  transform:translate(-50%,0%);
+  -ms-transform:translate(-50%,0%);
+  
+}
+
+
+/*Page EcoConception cercle chiffre */
+.circlenumber {
+  width:200px;
+  background:#F1F3F4;
+  height:370px;
+
+  text-align:center;
+  border-radius: 50%;
+  line-height:10px;
+  padding-top:100px;
+}
+
+.groschiffres {
+  color: #6FCF97;
+  font-size: 2em;
+  font-weight: 500;
+}
+
+/*Feature dans cercle gris*/
+
+#circleicone1 {
+  
+  display : inline-block; 
+  width : 175px; 
+  height : 175px;
+  background-image: url(image/feature1-3.png);
+  background-position :  20px 40px; 
+  background-color: #F1F3F4;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+}
+
+
+
+#circleicone2 {
+  
+  display : inline-block; width : 175px; height : 175px;
+  /* overflow : hidden; */
+  background-image: url(image/bonnespratiques3.png);
+  background-position :  26px 43px; 
+  background-color: #F1F3F4;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+}
+
+#circleicone3 {
+  
+  display : inline-block; width : 175px; height : 175px;
+  /* overflow : hidden; */
+  background-image: url(image/feature3-3.png);
+  background-position :  45px 40px; 
+  background-color: #F1F3F4;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+}
+
+
+}
+
+/*Testimonies*/
+
+.circle { 
+    width: 150px;
+    height: 150px;
+    background: lightgray; 
+    border-radius: 50%;
+
+ }
+
+ .quote {
+    font-size:100px;
+    line-height:0.6em;
+    opacity:0.2
+ }
+
+ .quote2 {
+    font-size:100px;
+    line-height:0.6em;
+    opacity:0.2;
+    margin-left: 220px
+ }
+
+ .col-sm-3.card {
+  background: #F1F3F4;
+  border-radius: 5%;
+}
+
+.photo {
+  width:180px; 
+
+  margin-bottom: 50px; 
+  margin-left: auto;
+  margin-right: auto; 
+  margin-top: 40px;
+  background-color: #ffffff;
+}
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   
+
+
+
+
+*/
+
+/*Classes de Aurore */
+
+
+.intro
+{
+	width: 100%;
+	text-align: center;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/*ICONES*/
+.img-svg
+{
+	width: 50px;
+	height: 50px;
+	color: #5f6368;
+}
+
+.img-svg:hover
+{
+	transition: 0.2s;
+	color: #4285f4;
+	cursor: pointer;
+}
+
+.appear
+{
+	opacity: 0;
+}
+
+.icones:hover
+{
+	transition: 0.2s;
+	color: #4285f4;
+	cursor: pointer;
+}
+
+.featureContainer
+{
+	height: 100%;
+	width: 100%;
+	margin: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.blocexemple
+{
+	height: 100%;
+	width: 30%;
+	padding: 10px;
+	font-size: 0.85rem !important;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+/*FIN BLOC FEATURES */
+
+.img-pix
+{
+	width: 70%;
+	height: 20%;
+}
+
+.img-pix img
+{
+	width: 100%;
+	height: 100%;
+}
+
+/*ANIMATION JS*/
+#exemple-un
+{
+	opacity: 0;
+}
+
+#exemple-trois
+{
+	opacity: 0;
+}
+
+
+/*FOOTER*/
+footer
+{
+	height: 10%;
+	padding: 20px;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 0.9rem;
+}
+
+footer .svg a svg
+{
+	height: 30px;
+	color: #5f6368;
+}
+
+.rowdiv
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.spaced
+{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+/* Partie de Laurent */
+
+ul{
+  list-style: none;
+}
+
+.intro2{
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  margin-right: 3.125em;
+  margin-top: 3em;
+  }
+
+.partie1{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-top: 4.375em;
+  margin-left: 3.125em;
+  margin-bottom: 4em;
+}
+
+.partie2{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4.375em;
+  margin-right: 3.125em;
+}
+
+.debut{
+  float: left;
+  overflow: hidden;
+  border-radius: 3.125em;
+  width: 6.25em;
+  height: 6.25em;
+  margin-inline-end: 1.25em;
+  margin-left: 3.125em;
+}
+
+.comment{
+  float: left;
+  padding: 5em;
+  margin-top: -3.375em;
+  margin-bottom: 1.25em;
+  margin-right: 8.125em;
+}
+
+.conception{
+  float: right;
+  padding: 3.438em;
+}
+
+.htcs{
+  float: left;
+  padding: 3.438em;
+  margin-right: 12.5em;
+  margin-bottom: 8.875em;
+  margin-top: -2.5em;
+}
+
+.code{
+  width: 25em;
+  float: right;
+  padding: 3.438em;
+}
+
+.couv{
+  float: left;
+  padding: 3.438em;
+  margin-top: -3.125em;
+  margin-right: 18.75em;
+  margin-bottom: 5.625em;
+  margin-left: 1.5em;
+}
+
+.sociaux{
+  text-align: right;
+}
+
+
+/*Page politique d'Aurore*/
+
+.noroundpix
+{
+	width: 240px;
+	height: 160px;
+}
+
+/*CLASSES DE POSITIONNEMENT*/
+.spaced
+{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.spaced-sup
+{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.spaced-y
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.spacedy-sup
+{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.bigspacedy
+{
+	margin-top: 120px;
+	margin-bottom: 120px;
+}
+
+.rowcss
+{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+.space-around
+{
+	justify-content: space-around;
+}
+
+.rowdiv
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.column
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.flexcenter
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	text-align: center;
+}
+
+.flexcenterbw
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	text-align: center;
+}
+
+.centered
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.pointer
+{
+	cursor: pointer;
+}
+
+button:hover
+{
+	transition: box-shadow .2s ease;
+	transform: translateY(-1px);
+	box-shadow: 0 4px 10px rgba(50,50,93,.226),0 1px 3px rgba(0,0,0,.08);
+}
+
+.text-left-column
+{
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+}
+
+
+
+.justifyandpadding
+{
+	text-align: justify;
+	padding-top: 80px;
+}

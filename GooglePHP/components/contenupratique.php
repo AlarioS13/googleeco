@@ -1,0 +1,81 @@
+<div class="intro2" style="margin-top: 75px;">
+        <img class="comment" src="image/comment.jpg" alt="Comment faire de l'éco-conception">
+        
+        <p>Eco-concevoir le web passe, au niveau le plus élémentaire, par la mise en place de bonnes pratiques de code:
+            une meilleure connaissance/utilisation des langages de programmation d’une part, une optimisation de l’écriture
+            d’autre part permettent de réserver moins de mémoire, de réduire le poids d’une application/
+             d’un site web, qui peuvent réclamer un stockage physique très important selon leur volume.</p>
+    </div>
+    
+    <hr class="ligne"> 
+
+    <div class="partie1 card card-body" style="margin-right : 3%">
+        <img class="conception" src="image/conception.jpg" alt="La conception">
+            <ul>
+                <li>En abordant la partie fonctionnelle :</li>
+                <li>Éliminer les fonctionnalités non essentielles</li>
+                <li>Quantifier précisément le besoin</li>
+                <li>Fluidifier le processus</li>
+                <li>Préférer la saisie assistée à l’autocomplétion</li>
+                <li>Respecter le principe de navigation rapide dans l’historique</li>
+                <li>Favoriser un design simple, épuré et adapté au Web</li>
+                <li>Préférer l’approche « mobile first » ou, à défaut, RESS plutôt que RWD</li>
+                <li>Proposer un traitement asynchrone lorsque c’est possible</li>
+                <li>Limiter le nombre de requêtes HTTP</li>
+                <li>Stocker localement les données statiques</li>
+                <li>Choisir les technologies les plus adaptées</li>
+                <li>Utiliser un framework ou développer sur mesure</li>
+                <li>Limiter le recours aux plug-ins</li>
+                <li>Limiter l’utilisation de Flash</li>
+            </ul>
+    </div>
+    
+    
+
+    <div class="partie2">
+        <img class="htcs" src="image/htcsjs.png" alt="3 front-end"></p>
+            <ul>
+                <li>Par le templating :</li>
+                <li>Valider les pages auprès du W3C</li>
+                <li>xternaliser les CSS et JavaScripte</li>
+                <li>Favoriser les polices standards</li>
+                <li>Préférer les glyphes aux images</li>
+                <li>Supprimer les balises images dont l’attribut SRC est vide</li>
+                <li>Redimensionner les images en dehors du navigateur</li>
+                <li>Éviter d’utiliser des images bitmap pour l’interface</li>
+                <li>Optimiser les images vectorielles</li>
+            </ul>
+    </div>
+    
+
+    <hr class="ligne">
+
+    <div class="partie1 card card-body"  style="margin-right : 3%">
+        <img class="code" src="image/code client.png" alt="photo code">
+            <ul>
+                <li>Par le code client :</li>
+                <li>Valider le code JavaScript avec JSLint</li>
+                <li>Éviter d’utiliser try...catch...finally</li>
+                <li>Utiliser les opérations primitives</li>
+                <li>Mettre en cache les objets souvent accédés en JavaScript</li>
+                <li>Privilégier les variables locales</li>
+                <li>Privilégier les fonctions anonymes</li>
+                <li> Utiliser le concaténateur de chaînes de façon optimale</li>
+                <li>Préférer les fonctions aux strings, en argument à setTimeout() et setInterval()</li>
+                <li>Éviter les boucles for...in</li>
+            </ul> 
+    </div>
+
+    <div class="intro2">
+        <img class="couv" src="image/COUV.jpg" alt="La couverture du livre">
+        <p style="text-align : justify;">Ici nous vous avons présenté quelques pistes d'amélioration de votre code mais sachez que 115 bonnes pratiques ont été identifiées.
+            Vous les retrouverez dans le livre "Eco-conception web/ Les 115 bonnes pratiques" écrit par Frédéric Bordage et paru aux éditions EYROLLES.
+            De plus des exemples de mises en applications sont aussi disponibles.</p>
+    </div>
+
+    <div  style="margin-left: 3%; margin-bottom: 50px;">Nous venons de voir les différentes pistes pour améliorer votre code.
+         Mais il existe d'autres raisons pour vous inciter à passer à l'éco-conception.
+          Ces raisons sont présentées dans la politique google.</div>
+
+          <div style="text-align: center; margin-bottom: 50px;">        <a href="politique.php" class="w3-btn w3-blue w3-round">En savoir plus</a>
+          </div>
