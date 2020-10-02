@@ -1,3 +1,5 @@
+<h2 class=text-center> Ils l'ont fait !</h2>
+
 <div class="featureContainer" style="margin-top: 150px;">
       <div class= "blocexemple" id="exemple-un">
         <div class="img-pix"><img src="image/verdot.png"></div>

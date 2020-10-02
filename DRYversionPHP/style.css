@@ -44,27 +44,28 @@ html, body
 }
 
 /*Page d'accueil*/
-/*je place le slogan, le pitch et le bouton contact sur le fond d'accueil */
+/*je place le slogan, le pitch et le bouton contact sur le fond d'accueil en absolute */
 
-#pitch {
+#pitch { /*pitch oh mon pitch */
   position:absolute;
   left:50%;
   bottom:14%;
-  transform:translate(-50%,0%);
-  -ms-transform:translate(-50%,0%);
+  /* transform:translate(-50%,0%);
+  -ms-transform:translate(-50%,0%); */
   font-weight: bold;
   color: #5f6368;
-  font-size: 1.3em;
+  font-size: 1em!important;
 }
 
 #slogan {
   position:absolute;
   left:50%;
   bottom:27%;
-  transform:translate(-50%,0%);
-  -ms-transform:translate(-50%,0%);
+  /* transform:translate(-50%,0%);
+  -ms-transform:translate(-50%,0%); */
   font-weight: bold;
   color: #5f6368;
+  
 }
 
 #ctn {

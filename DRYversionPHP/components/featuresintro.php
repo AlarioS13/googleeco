@@ -6,7 +6,7 @@
 
         <div class="col-sm-3"> <!--colonne de 3/12-->
           <div id="circleicone1"></div> <!--bloc gris et rond avec icone en background-->
-          <h2><a href="EcoConception.php">Eco-conception</a></h2> <br><br><br>
+          <h2><a href='index.php?page=ecoConception'>Eco-conception</a></h2> <br><br><br>
           <p>Avez-vous déjà réfléchi à l’empreinte écologique 
             de votre site web ? Dans le numérique, comme dans d’autres
               secteurs, la tendance est au vert !</p><br>
@@ -17,7 +17,7 @@
 
         <div class="col-sm-3"> 
           <div id="circleicone2"></div>
-          <h2><a href="BonnesPratiques.php">Bonnes pratiques</a></h2> <br><br><br>
+          <h2><a href='index.php?page=bonnesPratiques'>Bonnes pratiques</a></h2> <br><br><br>
           <p>Vous voulez faire de l’eco-conception 
             mais vous ne savez pas comment ? Vous trouverez ici
             les axes d’amelioration possibles. </p>
@@ -28,7 +28,7 @@
 
         <div class="col-sm-3">
           <div id="circleicone3"></div>
-          <h2><a href="politique.php">Notre politique</a></h2> <br><br><br>
+          <h2><a href="index.php?page=politique">Notre politique</a></h2> <br><br><br>
           <p>Google encourage l’éco-conception 
             avec une politique et des moyens pour concevoir un site qui allie
             performance et impact environnemental.</p><br>

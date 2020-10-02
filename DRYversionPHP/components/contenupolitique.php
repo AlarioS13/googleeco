@@ -31,7 +31,7 @@
 			<p>Il est donc nécessaire de surveiller le budget crawling et la manière dont Google analyse votre site. Cela peut se faire de différentes manières.</p>
 		</div>
 		<div class="centered rowcss bigspacedy">
-			<button class="btn btn-primary spaced centered"><a href="https://developers.google.com/speed/pagespeed/insights/?hl=fr" target="_blank">Découvrir</a></button>
+			<button class="btn btn-outline-primary"><a href="https://developers.google.com/speed/pagespeed/insights/?hl=fr" target="_blank">Découvrir</a></button>
  		</div>
  		<div class="rowcss bigspacedy">
 			<div class="column noroundpix" style="margin-left : 3%">
@@ -46,7 +46,7 @@
 		</div>
 		<h2 class="flexcenter spacedy-sup">Prêt à vous lancer?</h2>
 		<div class="centered rowcss spacedy-sup">
-			<button class="btn btn-outline-primary spaced"><a href="contact.php">Contact</a></button>
+			<button class="btn btn-outline-primary spaced"><a href="index.php?page=contact">Contact</a></button>
 		</div>
 		<br>
 	</div>

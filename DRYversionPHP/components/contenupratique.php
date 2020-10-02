@@ -77,5 +77,5 @@
          Mais il existe d'autres raisons pour vous inciter à passer à l'éco-conception.
           Ces raisons sont présentées dans la politique google.</div>
 
-          <div style="text-align: center; margin-bottom: 50px;">        <a href="politique.php" class="w3-btn w3-blue w3-round">En savoir plus</a>
+          <div style="text-align: center; margin-bottom: 50px;">        <a href='index.php?page=politique' class="btn btn-outline-primary">En savoir plus</a>
           </div>
