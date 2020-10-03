@@ -1,10 +1,6 @@
-/*fond d'accueil */
-#homeB {
-    width: 100%!important;
-    /* height: 700px; */
-    opacity: 55%;
-}
-/*police et style de a */
+
+
+/* classes générales, qui se retrouvent un peu partout */
 
 a
 {
@@ -37,32 +33,45 @@ html, body
   margin-left: auto;
 }
 
-.colvide { /*collone de largeur 0.75 pour espacer et pas depasser 12 0.75*4=3, et 3 bloc de 3 soit 12*/
+.colvide { /*colonne de largeur 0.75 pour espacer et pas depasser 12, 
+  ayant besoin de 13 colonne, la classe emprunté à boostrap le permettant 
+  pas.... 0.75*4=3, et 3 bloc de 3 soit 12. Privelégier la prochaine fois un simple flex...*/
   width: 6.25%; 
   flex: 0 0 6.25%;
   max-width: 6.25%;
 }
 
+
+
+
 /*Page d'accueil*/
 /*je place le slogan, le pitch et le bouton contact sur le fond d'accueil en absolute */
 
+.homeB {
+      background: url(image/back.jpg) no-repeat center fixed; 
+      background-size: cover;
+      height: 100vh;
+      
+
+}
 #pitch { /*pitch oh mon pitch */
   position:absolute;
   left:50%;
-  bottom:14%;
-  /* transform:translate(-50%,0%);
-  -ms-transform:translate(-50%,0%); */
-  font-weight: bold;
+  bottom:5%;
+  transform:translate(-50%,0%);
+  -ms-transform:translate(-50%,0%);
+  font-weight: 900;
   color: #5f6368;
-  font-size: 1em!important;
+  font-size: 1.5em!important;
+  width: max-content;
 }
 
 #slogan {
   position:absolute;
   left:50%;
-  bottom:27%;
-  /* transform:translate(-50%,0%);
-  -ms-transform:translate(-50%,0%); */
+  bottom:8%;
+  transform:translate(-50%,0%);
+  -ms-transform:translate(-50%,0%);
   font-weight: bold;
   color: #5f6368;
   
@@ -71,11 +80,12 @@ html, body
 #ctn {
   position:absolute;
   left:50%;
-  bottom:6%;
+  bottom:-5%;
   transform:translate(-50%,0%);
   -ms-transform:translate(-50%,0%);
   
 }
+
 
 
 /*Page EcoConception cercle chiffre */
@@ -135,7 +145,7 @@ html, body
 }
 
 
-}
+
 
 /*Testimonies*/
 
@@ -174,28 +184,8 @@ html, body
   margin-top: 40px;
   background-color: #ffffff;
 }
-/*
 
-
-
-
-
-
-
-
-
-
-
-
-
-                                   
-
-
-
-
-*/
-
-/*Classes de Aurore */
+/*Classes ils l'ont fait*/
 
 
 .intro
@@ -204,34 +194,11 @@ html, body
 	text-align: center;
 	display:flex;
 	flex-direction: column;
-	align-items: center;
-}
-
-/*ICONES*/
-.img-svg
-{
-	width: 50px;
-	height: 50px;
-	color: #5f6368;
-}
-
-.img-svg:hover
-{
-	transition: 0.2s;
-	color: #4285f4;
-	cursor: pointer;
-}
-
-.appear
-{
-	opacity: 0;
-}
-
-.icones:hover
-{
-	transition: 0.2s;
-	color: #4285f4;
-	cursor: pointer;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  
+ 
 }
 
 .featureContainer
@@ -256,30 +223,10 @@ html, body
 	align-items: center;
 }
 
-/*FIN BLOC FEATURES */
 
-.img-pix
-{
-	width: 70%;
-	height: 20%;
-}
 
-.img-pix img
-{
-	width: 100%;
-	height: 100%;
-}
 
-/*ANIMATION JS*/
-#exemple-un
-{
-	opacity: 0;
-}
 
-#exemple-trois
-{
-	opacity: 0;
-}
 
 
 /*FOOTER*/
@@ -292,6 +239,18 @@ footer
 	justify-content: space-between;
 	align-items: center;
 	font-size: 0.9rem;
+}
+
+.img-pix
+{
+	width: 70%;
+	height: 20%;
+}
+
+.img-pix img
+{
+	width: 100%;
+	height: 100%;
 }
 
 footer .svg a svg
@@ -314,7 +273,7 @@ footer .svg a svg
 }
 
 
-/* Partie de Laurent */
+/* Les bonnes pratiques*/
 
 ul{
   list-style: none;
@@ -394,16 +353,8 @@ ul{
   text-align: right;
 }
 
+/* page politique */
 
-/*Page politique d'Aurore*/
-
-.noroundpix
-{
-	width: 240px;
-	height: 160px;
-}
-
-/*CLASSES DE POSITIONNEMENT*/
 .spaced
 {
 	margin-left: 10px;
@@ -446,13 +397,6 @@ ul{
 	justify-content: space-around;
 }
 
-.rowdiv
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
-
 .column
 {
 	display: flex;
@@ -482,17 +426,6 @@ ul{
 	justify-content: center;
 }
 
-.pointer
-{
-	cursor: pointer;
-}
-
-button:hover
-{
-	transition: box-shadow .2s ease;
-	transform: translateY(-1px);
-	box-shadow: 0 4px 10px rgba(50,50,93,.226),0 1px 3px rgba(0,0,0,.08);
-}
 
 .text-left-column
 {
